@@ -1,7 +1,6 @@
 {
   "name": "design-skills",
   "description": "Design-system-agnostic AI skills for design work inside a product's own codebase: explore art directions, prototype, and review. Each skill discovers and respects the project's real tokens, components and conventions.",
-  "version": "0.1.0",
   "author": {
     "name": "Nelly Seiglan",
     "email": "nelly@hexa.com"
