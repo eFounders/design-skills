@@ -16,16 +16,17 @@ From intent to refined screens, a simple loop:
 
 ## Install
 
-**As a plugin (recommended).** In Claude Code:
+**As a plugin (recommended).** In Claude Code. *(The marketplace repo is private to the eFounders org — be a member and run `gh auth login` first.)*
 
 ```
 /plugin marketplace add eFounders/design-skills
-/plugin install design-skills@efounders-design
+/plugin install design-skills@efounders-design     # prototype · product-review · da-exploration
+/plugin install design-system@efounders-design     # ds-audit · ds-bootstrap · ds-figma
 ```
 
-Then, in any project, invoke a skill: `/prototype`, `/product-review`, `/da-exploration`
-(use the namespaced form `/design-skills:prototype` if the short name is ambiguous in your setup).
-Pull updates later with `/plugin marketplace update`.
+Then invoke any skill in a project: `/prototype`, `/product-review`, `/da-exploration`,
+`/ds-audit`, `/ds-bootstrap`, `/ds-figma` (use the namespaced form e.g. `/design-skills:prototype`
+if a short name is ambiguous). Pull the latest iterations any time with `/plugin marketplace update`.
 
 **Manual (no plugin).** Copy a skill folder into a project's `.claude/skills/` — or
 `~/.claude/skills/` to have it everywhere — then invoke it, e.g. `/product-review`.
