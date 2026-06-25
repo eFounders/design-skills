@@ -1,0 +1,16 @@
+{
+  "name": "efounders-design",
+  "description": "eFounders design skills — explore directions, prototype, and review, directly in a project's own codebase.",
+  "owner": {
+    "name": "Nelly Seiglan",
+    "email": "nelly@hexa.com"
+  },
+  "plugins": [
+    {
+      "name": "design-skills",
+      "source": "./",
+      "description": "da-exploration, prototype, product-review — design-system-agnostic skills that work against any repo's real design system.",
+      "version": "0.1.0"
+    }
+  ]
+}
