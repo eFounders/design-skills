@@ -8,7 +8,7 @@ They are **design-system-agnostic**. Each skill discovers and respects whatever 
 
 From intent to refined screens, a simple loop:
 
-1. **`da-exploration`** *(draft)* — explore 2-3 distinct art directions (mood, typography, color, density). Choose a visual direction. *(Explore)*
+1. **`da-exploration`** — guides anyone (designer or not) through exploring 3 distinct art directions for a brand or screen: pull angles from an idea, hunt reference images (Cosmos/Mobbin/Pinterest/Instagram), then render each as an HTML graphic universe + an intention screen at iso-content. Choose a visual direction. *(Explore)*
 2. **`prototype`** — turn the idea into concrete, reviewable screens, using the project's real tokens and components. HTML, Figma, or iso-prod code. *(Explore)*
 3. **`product-review`** — a senior UX/UI critique of those screens: prioritized findings, named UX laws ([lawsofux.com](https://lawsofux.com/)), concrete fixes. *(Improve)*
 
