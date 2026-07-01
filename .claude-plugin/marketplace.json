@@ -1,23 +1,52 @@
 {
   "name": "efounders-design",
-  "description": "eFounders design toolbox — explore directions, prototype and review (design-skills), plus the design-system skills: audit, bootstrap, Figma sync (design-system).",
+  "description": "Design toolbox — each skill installs on its own: explore directions, prototype, review, plus the design-system skills (audit, bootstrap, Figma sync).",
   "owner": {
     "name": "Nelly Seiglan",
     "email": "nelly@hexa.com"
   },
   "plugins": [
     {
-      "name": "design-skills",
-      "source": "./",
-      "description": "da-exploration, prototype, product-review — design-system-agnostic skills that work against any repo's real design system."
+      "name": "ds-audit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eFounders/design-system-template.git",
+        "path": "skills/ds-audit"
+      },
+      "description": "Assess a project's design system: a score on two axes (clean codebase + AI-native) with turnkey fixes."
     },
     {
-      "name": "design-system",
+      "name": "ds-bootstrap",
       "source": {
-        "source": "github",
-        "repo": "eFounders/design-system-template"
+        "source": "git-subdir",
+        "url": "https://github.com/eFounders/design-system-template.git",
+        "path": "skills/ds-bootstrap"
       },
-      "description": "The @efounders design-system toolbox: ds-audit (assess a project), ds-bootstrap (set up its DS), ds-figma (sync Figma from the code)."
+      "description": "Set up a project's design system from the shared base: tokens, components, conventions, first screens."
+    },
+    {
+      "name": "ds-figma",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eFounders/design-system-template.git",
+        "path": "skills/ds-figma"
+      },
+      "description": "Generate or refresh a Figma design system from the code (the code stays the source of truth)."
+    },
+    {
+      "name": "prototype",
+      "source": "./skills/prototype",
+      "description": "Prototype screens and flows against the project's real design system (HTML, Figma, or iso-prod code)."
+    },
+    {
+      "name": "product-review",
+      "source": "./skills/product-review",
+      "description": "Senior UX/UI critique of a screen or a flow, grounded in named UX laws. Advisory, never a gate."
+    },
+    {
+      "name": "da-exploration",
+      "source": "./skills/da-exploration",
+      "description": "Explore distinct art directions for a brand or a screen, from reference images to a graphic universe."
     }
   ]
 }
