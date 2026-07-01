@@ -16,7 +16,7 @@ From intent to refined screens, a simple loop:
 
 ## Install
 
-**As a plugin (recommended).** In Claude Code. *(The marketplace repo is private to the eFounders org — be a member and run `gh auth login` first.)*
+**As a plugin (recommended).** In Claude Code. Public and free, no account needed.
 
 ```
 /plugin marketplace add eFounders/design-skills
@@ -30,6 +30,10 @@ if a short name is ambiguous). Pull the latest iterations any time with `/plugin
 
 **Manual (no plugin).** Copy a skill folder into a project's `.claude/skills/` — or
 `~/.claude/skills/` to have it everywhere — then invoke it, e.g. `/product-review`.
+
+## Feedback & license
+
+Open, and better with your input. Star it if it helps, and open an issue if something breaks. [MIT](LICENSE): use it, fork it, brand it.
 
 ---
 
