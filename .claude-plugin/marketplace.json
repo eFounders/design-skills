@@ -7,11 +7,6 @@
   },
   "plugins": [
     {
-      "name": "design-skills",
-      "source": "./",
-      "description": "All the design-work skills in one install: prototype, product-review, and da-exploration."
-    },
-    {
       "name": "ds-audit",
       "source": {
         "source": "git-subdir",
